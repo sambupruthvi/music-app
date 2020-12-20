@@ -1,8 +1,15 @@
 import React from 'react';
+import SongList from './SongList';
 
 const App = () => {
     return (
-        <div>App</div>
+        <div className = 'ui container grid'>
+            <div className = 'ui row'>
+                <div className = 'eight wide column'>
+                    <SongList />
+                </div>
+            </div>
+        </div>
     );
 }
 
